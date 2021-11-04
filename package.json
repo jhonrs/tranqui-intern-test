@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
     "@mui/material": "^5.0.6",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -23,11 +25,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "ts-node --project tsconfig.server.json server/index.ts",
     "watch:server": "nodemon -w server -e ts --exec yarn server",
-    "watch:all": "concurrently \"yarn watch:server\" \"yarn start\""
+    "watch:all": "concurrently -n back,front \"yarn watch:server\" \"yarn start\""
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^6.3.0",
     "nodemon": "^2.0.14"
   }
 }
