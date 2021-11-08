@@ -1,2 +1,10 @@
-Pepito Pérez: 4
-Juanita Gómez: 10
+Mateo Luas,10
+Julieth Salazar,2
+Aurora Sanchez,4
+Nicole Melo,1
+Mateo Valencia,2
+Monica Ramirez,2
+Juanes Perez,2
+Saul Luas,1
+Jhon Reyes,1
+Juan Bravo,1
