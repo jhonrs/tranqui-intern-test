@@ -8,3 +8,4 @@ Juanes Perez,2
 Saul Luas,1
 Jhon Reyes,1
 Juan Bravo,1
+Luis Diaz,10

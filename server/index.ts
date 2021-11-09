@@ -50,10 +50,7 @@ app.put("/counter", (req, res) => {
       if (err) {
         return console.log(err);
       }
-      console.log("El archivo fue creado correctamente");
     });
-    console.log(currentNames);
-
   });
   return res.json(req.body);
 })
